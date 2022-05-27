@@ -89,6 +89,5 @@ public class RpcMessageEncoder extends MessageToByteEncoder<RpcMessage> {
 
     }
 
-
 }
 
