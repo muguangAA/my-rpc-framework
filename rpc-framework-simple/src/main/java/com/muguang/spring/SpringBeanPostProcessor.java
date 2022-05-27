@@ -77,5 +77,4 @@ public class SpringBeanPostProcessor implements BeanPostProcessor {
         }
         return bean;
     }
-
 }
