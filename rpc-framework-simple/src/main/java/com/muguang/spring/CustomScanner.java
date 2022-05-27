@@ -23,5 +23,4 @@ public class CustomScanner extends ClassPathBeanDefinitionScanner {
     public int scan(String... basePackages) {
         return super.scan(basePackages);
     }
-
 }
