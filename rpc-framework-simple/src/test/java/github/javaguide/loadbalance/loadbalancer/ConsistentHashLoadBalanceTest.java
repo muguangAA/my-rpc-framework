@@ -2,10 +2,10 @@ package github.javaguide.loadbalance.loadbalancer;
 
 import github.javaguide.DemoRpcService;
 import github.javaguide.DemoRpcServiceImpl;
-import github.javaguide.config.RpcServiceConfig;
-import github.javaguide.extension.ExtensionLoader;
-import github.javaguide.loadbalance.LoadBalance;
-import github.javaguide.remoting.dto.RpcRequest;
+import com.muguang.config.RpcServiceConfig;
+import com.muguang.extension.ExtensionLoader;
+import com.muguang.loadbalance.LoadBalance;
+import com.muguang.remoting.dto.RpcRequest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,7 +1,7 @@
-import github.javaguide.HelloService;
-import github.javaguide.config.RpcServiceConfig;
-import github.javaguide.remoting.transport.socket.SocketRpcServer;
-import github.javaguide.serviceimpl.HelloServiceImpl;
+import com.muguang.HelloService;
+import com.muguang.config.RpcServiceConfig;
+import com.muguang.remoting.transport.socket.SocketRpcServer;
+import com.muguang.serviceimpl.HelloServiceImpl;
 
 /**
  * @author shuang.kou

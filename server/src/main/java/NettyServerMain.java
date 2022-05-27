@@ -1,8 +1,8 @@
-import github.javaguide.HelloService;
-import github.javaguide.annotation.RpcScan;
-import github.javaguide.config.RpcServiceConfig;
-import github.javaguide.remoting.transport.netty.server.NettyRpcServer;
-import github.javaguide.serviceimpl.HelloServiceImpl2;
+import com.muguang.HelloService;
+import com.muguang.annotation.RpcScan;
+import com.muguang.config.RpcServiceConfig;
+import com.muguang.remoting.transport.netty.server.NettyRpcServer;
+import com.muguang.serviceimpl.HelloServiceImpl2;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**

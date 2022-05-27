@@ -1,6 +1,6 @@
 package github.javaguide;
 
-import github.javaguide.annotation.RpcService;
+import com.muguang.annotation.RpcService;
 import lombok.extern.slf4j.Slf4j;
 
 /**

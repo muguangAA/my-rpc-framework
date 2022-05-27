@@ -2,11 +2,13 @@ package github.javaguide.registry;
 
 import github.javaguide.DemoRpcService;
 import github.javaguide.DemoRpcServiceImpl;
-import github.javaguide.config.CustomShutdownHook;
-import github.javaguide.config.RpcServiceConfig;
-import github.javaguide.registry.zk.ZkServiceDiscoveryImpl;
-import github.javaguide.registry.zk.ZkServiceRegistryImpl;
-import github.javaguide.remoting.dto.RpcRequest;
+import com.muguang.config.CustomShutdownHook;
+import com.muguang.config.RpcServiceConfig;
+import com.muguang.registry.ServiceDiscovery;
+import com.muguang.registry.ServiceRegistry;
+import com.muguang.registry.zk.ZkServiceDiscoveryImpl;
+import com.muguang.registry.zk.ZkServiceRegistryImpl;
+import com.muguang.remoting.dto.RpcRequest;
 import org.junit.jupiter.api.Test;
 
 import java.net.InetSocketAddress;

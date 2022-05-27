@@ -1,6 +1,7 @@
 package github.javaguide.serialize.hessian;
 
-import github.javaguide.remoting.dto.RpcRequest;
+import com.muguang.remoting.dto.RpcRequest;
+import com.muguang.serialize.hessian.HessianSerializer;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;

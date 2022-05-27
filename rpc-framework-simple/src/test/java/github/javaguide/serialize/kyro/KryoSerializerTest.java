@@ -1,6 +1,7 @@
 package github.javaguide.serialize.kyro;
 
-import github.javaguide.remoting.dto.RpcRequest;
+import com.muguang.remoting.dto.RpcRequest;
+import com.muguang.serialize.kyro.KryoSerializer;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;
