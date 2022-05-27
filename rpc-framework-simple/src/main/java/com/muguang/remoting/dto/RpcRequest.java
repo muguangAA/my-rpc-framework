@@ -30,4 +30,5 @@ public class RpcRequest implements Serializable {
     public String getRpcServiceName() {
         return this.getInterfaceName() + this.getGroup() + this.getVersion();
     }
+
 }
