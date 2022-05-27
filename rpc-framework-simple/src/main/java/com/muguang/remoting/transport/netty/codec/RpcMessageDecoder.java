@@ -153,5 +153,4 @@ public class RpcMessageDecoder extends LengthFieldBasedFrameDecoder {
             }
         }
     }
-
 }
